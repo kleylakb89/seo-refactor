@@ -63,12 +63,13 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* Updated class names */
+.picture-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.picture-right {
     float: right;
     margin-left: 25px;
 }
