@@ -5,11 +5,12 @@
     margin: 0;
 }
 
+/* Sets the background color for the body section of page */
 body {
     background-color: #d9dcd6;
 }
 
-/* Linked header element */
+/* Linked header element - sets padding, fonts, color, and background color of header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,16 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* sets h1 display and font size */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* sets color of class .seo */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Changed to nav tag */
+/* Changed to nav tag - sets padding and margin sizes, moves to the right, sets font and size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,25 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* removes the bullet point style of the list */
 header nav ul {
     list-style-type: none;
 }
 
+/* sets the display and margin style of the list items */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets link color and removes underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets paragraph font sizes*/
 p {
     font-size: 16px;
 }
 
-/* Updated class name */
+/* Updated class name - sets class dimensions, margin size, backgorund image file, and centers */
 .background {
     height: 800px;
     width: 100%;
@@ -64,22 +71,26 @@ p {
 }
 
 /* Updated class names */
+/* sets picture to the left, margin size */
 .picture-left {
     float: left;
     margin-right: 25px;
 }
 
+/* sets picture to the right, margin size */
 .picture-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets class .content width, display, and left margin size */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets class .benefits right margin and padding size, positioning below left and right floated elements, floats to the right, sets dimensions, font, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,26 +102,26 @@ p {
     background-color: #2589bd;
 }
 
-/* Consolidated benefit selector formatting */
+/* Consolidated benefit selector formatting - sets bottom margin size and font color */
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Consolidated h3 formatting */
+/* Consolidated h3 formatting - sets bottom margin size, centers text */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Consolidated benefits img formatting */
+/* Consolidated benefits img formatting - sets img under class .benefits display, centering, maximum width */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Consolidated content selector formatting */
+/* Consolidated content selector formatting - sets class .content-sub bottom margin size, padding and height sizes, font, background color, and font color*/
 .content-sub {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,18 +131,18 @@ h3 {
     color: #ffffff;
 }
 
-/* Consolidated content img formatting */
+/* Consolidated content img formatting - sets img under class .content maximum height */
 .content img {
     max-height: 200px;
 }
 
-/* Consolidated content h2 formatting */
+/* Consolidated content h2 formatting - sets h2 under class .content bottom margin and font size sizes */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Linked footer element */
+/* Linked footer element - sets padding size, positions under right and left floats, sets font, center element */
 footer {
     padding: 30px;
     clear: both;
@@ -139,7 +150,7 @@ footer {
     text-align: center;
 }
 
-/* Linked h4 element */
-footer h4 {
+/* Linked h4 element - sets h4 font size */
+h4 {
     font-size: 20px;
 }
