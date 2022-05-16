@@ -19,18 +19,18 @@ header {
 }
 
 /* sets h1 display and font size */
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* sets color of class .seo */
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
 /* Changed to nav tag - sets padding and margin sizes, moves to the right, sets font and size */
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,13 +38,10 @@ header nav {
     font-size: 20px;
 }
 
-/* removes the bullet point style of the list */
-header nav ul {
-    list-style-type: none;
-}
+/* removed unnecessary list formatting */
 
-/* sets the display and margin style of the list items */
-header nav ul li {
+/* sets the display and margin style of the nav links */
+nav a {
     display: inline-block;
     margin-left: 25px;
 }
@@ -60,7 +57,7 @@ p {
     font-size: 16px;
 }
 
-/* Updated class name - sets class dimensions, margin size, backgorund image file, and centers */
+/* Updated class name - sets class dimensions, bottom margin size, backgorund image file, and centers */
 .background {
     height: 800px;
     width: 100%;
@@ -71,27 +68,27 @@ p {
 }
 
 /* Updated class names */
-/* sets picture to the left, margin size */
+/* sets picture to the left, right margin size */
 .picture-left {
     float: left;
     margin-right: 25px;
 }
 
-/* sets picture to the right, margin size */
+/* sets picture to the right, left margin size */
 .picture-right {
     float: right;
     margin-left: 25px;
 }
 
-/* sets class .content width, display, and left margin size */
-.content {
+/* sets main width, display, and left margin size */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* sets class .benefits right margin and padding size, positioning below left and right floated elements, floats to the right, sets dimensions, font, and background color */
-.benefits {
+/* sets aside right margin and padding size, positioning below left and right floated elements, floats to the right, sets dimensions, font, and background color */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -114,8 +111,8 @@ h3 {
     text-align: center;
 }
 
-/* Consolidated benefits img formatting - sets img under class .benefits display, centering, maximum width */
-.benefits img {
+/* Consolidated aside img formatting - sets img under class .benefits display, centering, maximum width */
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -131,13 +128,13 @@ h3 {
     color: #ffffff;
 }
 
-/* Consolidated content img formatting - sets img under class .content maximum height */
-.content img {
+/* Consolidated main img formatting - sets img under class .content maximum height */
+main img {
     max-height: 200px;
 }
 
-/* Consolidated content h2 formatting - sets h2 under class .content bottom margin and font size sizes */
-.content h2 {
+/* Consolidated h2 formatting - sets h2 under class .content bottom margin and font size sizes */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
